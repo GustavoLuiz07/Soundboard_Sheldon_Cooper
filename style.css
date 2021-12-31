@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+.foto_sheldon {
+    width: 100%;
+    text-align: center;
+}
+
+.botao {
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 440px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.button > div {
+    cursor: pointer;
+}
